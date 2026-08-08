@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+```
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #f5f7fa, #e8ecf3);
+        color: #222;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 20px;
+    }
+
+    .about-card {
+        max-width: 800px;
+        width: 100%;
+        background: white;
+        padding: 55px;
+        border-radius: 20px;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+        text-align: center;
+    }
+
+    /* Name */
+    .about-card h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        color: #2c3e50;
+    }
+
+    .about-card h1 span {
+        color: #6c63ff;
+    }
+
+    /* Major */
+    .major {
+        font-size: 1.3rem;
+        color: #6c63ff;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    .divider {
+        width: 60px;
+        height: 4px;
+        background: #6c63ff;
+        margin: 0 auto 30px;
+        border-radius: 10px;
+    }
+
+    /* About text */
+    .about-card p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #666;
+        margin-bottom: 15px;
+    }
+
+    /* Social Links */
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .social-links a {
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    .linkedin {
+        background: #0077b5;
+        color: white;
+    }
+
+    .github {
+        background: #24292e;
+        color: white;
+    }
+
+    .social-links a:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        background: #2c3e50;
+        color: white;
+    }
+
+    footer p {
+        margin: 0;
+        font-size: 0.9rem;
+        opacity: 0.8;
+    }
+
+    @media (max-width: 600px) {
+        .about-card {
+            padding: 35px 25px;
+        }
+
+        .about-card h1 {
+            font-size: 2.2rem;
+        }
+
+        .major {
+            font-size: 1.1rem;
+        }
+
+        .about-card p {
+            font-size: 1rem;
+        }
+
+        .social-links {
+            flex-direction: column;
+        }
+
+        .social-links a {
+            width: 100%;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<main>
+    <section class="about-card">
+
+        <!-- YOUR NAME -->
+        <h1>Hi, I'm <span>Rahaf Yasser </span></h1>
+
+        <!-- YOUR MAJOR -->
+        <div class="major">
+            Computer Science — Software Engineering
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- ABOUT YOU -->
+        <p>
+            Welcome to my portfolio! I'm passionate about technology,
+            software development, and putting my skills to work.
+        </p>
+
+        <p>
+            Here you'll find more about my background, projects,
+            skills, and experience as I continue growing as a developer.
+        </p>
+
+        <!-- SOCIAL LINKS -->
+        <div class="social-links">
+
+            <!-- REPLACE WITH YOUR LINKEDIN URL -->
+            <a
+                href="www.linkedin.com/in/rahaf-yasser"
+                target="_blank"
+                class="linkedin">
+                LinkedIn
+            </a>
+
+            <!-- REPLACE WITH YOUR GITHUB URL -->
+            <a
+                href="https://github.com/Rahaf-Yasser"
+                target="_blank"
+                class="github">
+                GitHub
+            </a>
+
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Rahaf. All rights reserved.</p>
+</footer>
+```
+
+</body>
+</html>
