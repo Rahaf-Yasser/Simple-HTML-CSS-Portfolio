@@ -8,6 +8,10 @@ This is a customizable portfolio website template that you can use to showcase y
 - Easy to customize
 - Clean and modern layout
 
+
+## GitHub Repo
+
+https://github.com/Rahaf-Yasser/Simple-HTML-CSS-Portfolio/tree/main
 ## Demo
 
 You can view the live demo of this portfolio [here](https://pitch-candle-era.glitch.me).
